@@ -1,0 +1,53 @@
+.sidebar {
+    background-color: #eeeff1;
+    padding: 60px;
+    
+  }
+  
+
+
+  .sidebar-tab1 {
+    padding-top: -10px;
+    margin-bottom: 225px; /* Add margin at the bottom of the first section */
+  }
+  
+  .sidebar-tab2 {
+    margin-top: 280px; /* Add margin at the top of the second section */
+
+    /* background-color: aquamarine; */
+  }
+  
+ 
+  
+/* 
+  .sidebar-tab2{
+    padding-bottom: 20px;
+
+  } */
+
+  .sidebar-tab {
+    margin-top: 30px;
+    padding: 5px 30px;
+    background-color: #5ca0ee;
+    border-radius: 5px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 10px; */
+  }
+
+  .sidebar-tab span {
+    margin-right: 5px;
+  }
+  
+  .sidebar-tab i {
+    margin-right: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  }
+  

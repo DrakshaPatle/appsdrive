@@ -1,0 +1,45 @@
+.secondary-sidebar {
+    border-left: 1px solid #1048be;
+    padding: 60px;
+    background-color: rgb(208, 210, 209);
+  }
+  
+  .secondary-sidebar .sidebar-tab {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .secondry-sidebar-create {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .secondary-sidebar .sidebar-tab span {
+    margin-right: 5px;
+
+  }
+  
+  .sidebar-tab1{
+    
+    background-color: aqua;
+    margin-top: 5px;
+    width: 60px;
+  }
+  .secondary-sidebar .sidebar-tab i {
+    margin-right: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .secondary-sidebar {
+      border-top: 1px solid #ccc;
+      border-left: none;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  }
+  
