@@ -1,0 +1,32 @@
+.drive-navbar{
+   background-color:#ffff ;
+   padding:5px 50px; 
+}
+.drive-section{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.section-of-img{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.user-details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.image-icons{
+    width: 23px;
+  height: 23px;
+  margin: auto;
+}
+.user-image-icons{
+    width: 23px;
+  height: 23px;
+  margin: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #000;
+}
